@@ -2,6 +2,7 @@
 title: "Add a printer"
 description: "In System Settings, choose Printers, then Add. If there's no Printers page, two lines in Konsole add it."
 keywords: "printer print printing scanner cups wifi usb hp canon epson brother"
+tableOfContents: false
 sidebar:
   order: 2
 ---

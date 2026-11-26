@@ -2,6 +2,7 @@
 title: "Paste a line into Konsole"
 description: "Open Konsole, paste with Ctrl+Shift+V and press Enter."
 keywords: "konsole terminal command line paste sudo password copy"
+tableOfContents: false
 sidebar:
   order: 1
 ---

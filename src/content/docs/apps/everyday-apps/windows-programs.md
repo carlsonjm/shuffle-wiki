@@ -2,6 +2,7 @@
 title: "Run a Windows program (.exe)"
 description: ".exe files don't run here. Discover usually has the Linux version or a good stand-in."
 keywords: "exe windows program setup installer msi wine run"
+tableOfContents: false
 sidebar:
   order: 5
 ---

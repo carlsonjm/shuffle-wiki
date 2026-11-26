@@ -68,11 +68,11 @@ kbd a { color: inherit !important; text-decoration: none; }
 .starlight-aside__title { display: none; }
 
 /* Group lists on area landing pages. */
-.sw-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 0.75rem; margin-top: 1rem; }
-.sw-groups > div { background: var(--sw-fill); border-radius: 8px; padding: 1rem; margin: 0 !important; }
-.sw-groups h3 { margin: 0 0 0.5rem; font-size: 1rem; }
+.sw-groups { columns: 15rem 3; column-gap: 0.75rem; margin-top: 1.25rem; }
+.sw-groups > div { break-inside: avoid; background: var(--sw-fill); border-radius: 8px; padding: 0.9rem 1rem; margin: 0 0 0.75rem !important; }
+.sw-groups h3 { margin: 0 0 0.4rem; font-size: var(--sl-text-base); font-weight: 700; }
 .sw-groups ul { list-style: none; padding: 0; margin: 0; }
-.sw-groups li { margin: 0; padding: 0.2rem 0; }
+.sw-groups li { margin: 0; padding: 0.3rem 0; font-size: var(--sl-text-sm); line-height: 1.35; }
 .sw-groups a { text-decoration: none; }
 .sw-groups a:hover { text-decoration: underline; }
 
@@ -80,5 +80,23 @@ kbd a { color: inherit !important; text-decoration: none; }
 .hero { padding-block: 2.5rem 1rem !important; }
 .hero h1 { font-size: clamp(2rem, 4vw, 2.75rem) !important; }
 .site-title img { height: 1.6rem; width: auto; }
-.sw-groups { align-items: start; }
 .sw-groups h3 { color: var(--sl-color-white); }
+
+/* Calmer type: page titles sized to the reading column, not a poster. */
+:root { --sl-text-h1: clamp(1.75rem, 2.6vw, 2.25rem); --sl-text-h2: 1.375rem; --sl-text-h3: 1.125rem; }
+h1#_top { font-weight: 700; letter-spacing: -0.01em; line-height: 1.15; }
+.sl-markdown-content h2 { margin-top: 2rem; }
+/* The sidebar: group names quieter, pages a touch tighter. */
+.sidebar-content summary .group-label .large { font-size: var(--sl-text-sm); }
+.sidebar-content a { padding-block: 0.3rem; }
+/* Previous and next: the page names at reading size. */
+.pagination-links a { font-size: var(--sl-text-base); }
+.pagination-links .link-title { font-size: var(--sl-text-lg); }
+/* Front page cards keep one height per row. */
+.sw-area h2 { font-size: var(--sl-text-lg) !important; }
+:root { --sl-sidebar-width: 16.5rem; }
+
+/* The left column starts level with the page title, so the two read as one layout (J, 26 Nov). */
+@media (min-width: 50rem) {
+  .sidebar-pane .sidebar-content { padding-top: 2.4rem; }
+}

@@ -2,6 +2,7 @@
 title: "Shuffle won't start after sign-in"
 description: "Choose “KDE Plasma (turns Shuffle off)” at the sign-in screen."
 keywords: "broken black screen wont start crash sign in login plain plasma"
+tableOfContents: false
 sidebar:
   order: 2
 ---

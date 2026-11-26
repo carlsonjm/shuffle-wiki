@@ -2,6 +2,7 @@
 title: "Get Spotify, Discord or Zoom"
 description: "Get them from Discover. Netflix and other streaming services play in your browser."
 keywords: "spotify discord zoom vlc obs music video calls chat netflix youtube streaming disney"
+tableOfContents: false
 sidebar:
   order: 2
 ---

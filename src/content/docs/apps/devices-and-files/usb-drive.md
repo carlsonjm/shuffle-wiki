@@ -2,6 +2,7 @@
 title: "A USB drive doesn't show up"
 description: "Restart the computer to finish an update, then plug the drive in again."
 keywords: "usb drive stick flash memory card external disk not showing missing plug in"
+tableOfContents: false
 sidebar:
   order: 5
 ---

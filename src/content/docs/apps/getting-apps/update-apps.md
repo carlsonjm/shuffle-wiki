@@ -2,6 +2,7 @@
 title: "Keep the computer up to date"
 description: "Check for updates, in Search, updates everything at once."
 keywords: "update upgrade new version apps system pacman"
+tableOfContents: false
 sidebar:
   order: 4
 ---

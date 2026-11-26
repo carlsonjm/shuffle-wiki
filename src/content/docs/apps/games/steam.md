@@ -2,6 +2,7 @@
 title: "Install Steam"
 description: "Get it from Discover. Sign in and your library is there."
 keywords: "steam games valve proton library"
+tableOfContents: false
 sidebar:
   order: 1
 ---

@@ -2,6 +2,7 @@
 title: "An app or the screen stopped responding"
 description: "Ctrl + Shift + Esc opens System Monitor, as Task Manager does on Windows."
 keywords: "frozen freeze stuck not responding hang crash close force quit kill task manager ctrl alt delete del system monitor end task"
+tableOfContents: false
 sidebar:
   order: 4
 ---

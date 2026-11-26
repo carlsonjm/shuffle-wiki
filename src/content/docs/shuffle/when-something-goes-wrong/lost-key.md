@@ -2,6 +2,7 @@
 title: "I lost my key"
 description: "Email support from the address you bought with, and your key comes straight back."
 keywords: "key lost email missing never arrived replacement purchase"
+tableOfContents: false
 sidebar:
   order: 1
 ---

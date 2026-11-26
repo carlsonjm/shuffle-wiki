@@ -2,6 +2,7 @@
 title: "Open Word, Excel and PowerPoint files"
 description: "ONLYOFFICE opens and saves them. Get it from Discover."
 keywords: "word excel powerpoint office docx xlsx pptx documents spreadsheet slides onlyoffice libreoffice"
+tableOfContents: false
 sidebar:
   order: 3
 ---

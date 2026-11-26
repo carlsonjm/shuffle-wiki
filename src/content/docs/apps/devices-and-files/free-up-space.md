@@ -2,6 +2,7 @@
 title: "Free up space"
 description: "Free up space, in Search, shows what fills the disk."
 keywords: "space full disk storage drive room clean up cleanup storage sense"
+tableOfContents: false
 sidebar:
   order: 3
 ---

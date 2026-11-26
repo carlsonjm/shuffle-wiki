@@ -2,6 +2,7 @@
 title: "Install Shuffle"
 description: "Update, download with your key, run one file, then Set up and sign out once."
 keywords: "install setup download konsole pacman steps how start"
+tableOfContents: false
 sidebar:
   order: 4
 ---

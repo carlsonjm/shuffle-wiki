@@ -2,6 +2,7 @@
 title: "Use a game controller"
 description: "Plug it in, or pair it under Bluetooth in System Settings."
 keywords: "controller gamepad xbox playstation ps5 dualsense joystick bluetooth"
+tableOfContents: false
 sidebar:
   order: 3
 ---
