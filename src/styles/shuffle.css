@@ -1,0 +1,84 @@
+/*
+ * The wiki in shuffleplasma.com's own look (that site's app/tokens.css): Piano #141414 and
+ * Ghost White #f8f8ff, Manrope, quiet greys, the same steps in light and dark. Starlight's
+ * "white" is the text colour and "black" the page ground in both themes.
+ */
+:root {
+  --sl-font: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --sl-font-mono: ui-monospace, "JetBrains Mono", "DejaVu Sans Mono", monospace;
+  --sl-color-white: #f8f8ff;
+  --sl-color-gray-1: #e6e6ec;
+  --sl-color-gray-2: rgba(255, 255, 255, 0.66);
+  --sl-color-gray-3: rgba(255, 255, 255, 0.53);
+  --sl-color-gray-4: #5a5a5a;
+  --sl-color-gray-5: #333333;
+  --sl-color-gray-6: #1c1c1c;
+  --sl-color-black: #141414;
+  --sl-color-accent-low: #242424;
+  --sl-color-accent: #f8f8ff;
+  --sl-color-accent-high: #f8f8ff;
+  --sl-color-text-accent: #f8f8ff;
+  --sl-color-bg-nav: #1c1c1c;
+  --sl-color-bg-sidebar: #141414;
+  --sl-color-hairline: #333333;
+  --sl-color-hairline-light: #333333;
+  --sw-fill: rgba(255, 255, 255, 0.07);
+}
+:root[data-theme="light"] {
+  --sl-color-white: #141414;
+  --sl-color-gray-1: #242424;
+  --sl-color-gray-2: rgba(20, 20, 20, 0.66);
+  --sl-color-gray-3: rgba(20, 20, 20, 0.53);
+  --sl-color-gray-4: #a5a5aa;
+  --sl-color-gray-5: #dcdce0;
+  --sl-color-gray-6: #f0f0f4;
+  --sl-color-gray-7: #f0f0f4;
+  --sl-color-black: #f8f8ff;
+  --sl-color-accent-low: #e8e8ec;
+  --sl-color-accent: #141414;
+  --sl-color-accent-high: #141414;
+  --sl-color-text-accent: #141414;
+  --sl-color-bg-nav: #f0f0f4;
+  --sl-color-bg-sidebar: #f8f8ff;
+  --sl-color-hairline: #dcdce0;
+  --sl-color-hairline-light: #dcdce0;
+  --sw-fill: rgba(20, 20, 20, 0.07);
+}
+/* Room for the area tabs under the header on wide screens. */
+@media (min-width: 50rem) {
+  :root { --sl-nav-height: 6.6rem; }
+  .starlight-sidebar-topics { display: none; }
+}
+header.header { padding-bottom: 0; }
+
+/* Links read as ink, underlined, like the site's Help. */
+.sl-markdown-content a { color: var(--sl-color-white); text-underline-offset: 3px; }
+.sl-markdown-content strong { font-weight: 700; }
+
+/* Keys: a small raised mark; the Meta key links to its own page. */
+kbd { font-family: var(--sl-font-mono); font-size: 0.86em; padding: 1px 6px; border-radius: 4px; background: var(--sl-color-accent-low); border: 1px solid var(--sl-color-hairline); white-space: nowrap; }
+kbd a { color: inherit !important; text-decoration: none; }
+
+/* The current page and sidebar group headings. */
+.sidebar-content a[aria-current="page"] { background: var(--sl-color-white); color: var(--sl-color-black); font-weight: 600; }
+.sidebar-content summary .group-label .large { font-size: var(--sl-text-sm); font-weight: 600; color: var(--sl-color-white); }
+
+/* Asides stay quiet: a soft fill, no coloured rail. */
+.starlight-aside { background: var(--sw-fill); border: 0; border-radius: 8px; color: var(--sl-color-gray-2); }
+.starlight-aside__title { display: none; }
+
+/* Group lists on area landing pages. */
+.sw-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 0.75rem; margin-top: 1rem; }
+.sw-groups > div { background: var(--sw-fill); border-radius: 8px; padding: 1rem; margin: 0 !important; }
+.sw-groups h3 { margin: 0 0 0.5rem; font-size: 1rem; }
+.sw-groups ul { list-style: none; padding: 0; margin: 0; }
+.sw-groups li { margin: 0; padding: 0.2rem 0; }
+.sw-groups a { text-decoration: none; }
+.sw-groups a:hover { text-decoration: underline; }
+
+/* The front page opens straight onto the areas, as in the approved mock-up. */
+.hero { padding-block: 2.5rem 1rem !important; }
+.hero h1 { font-size: clamp(2rem, 4vw, 2.75rem) !important; }
+.site-title img { height: 1.6rem; width: auto; }
+.sw-groups { align-items: start; }
+.sw-groups h3 { color: var(--sl-color-white); }

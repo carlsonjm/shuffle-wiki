@@ -1,0 +1,7 @@
+// Published as static files on Cloudflare Workers at wiki.shuffleplasma.com: `npm run deploy`.
+{
+  "name": "shuffle-wiki",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./dist", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "wiki.shuffleplasma.com", "custom_domain": true }]
+}

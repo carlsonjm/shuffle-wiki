@@ -1,0 +1,23 @@
+---
+// An area's landing page: each of its groups, with its pages in sidebar order.
+import { getCollection } from "astro:content";
+
+interface Props { area: string; groups: Record<string, string> }
+const { area, groups } = Astro.props;
+const docs = await getCollection("docs", (d) => d.id.startsWith(area + "/") && d.id.split("/").length === 3);
+const list = Object.entries(groups).map(([folder, label]) => ({
+  label,
+  pages: docs
+    .filter((d) => d.id.split("/")[1] === folder)
+    .sort((a, b) => (a.data.sidebar?.order ?? 99) - (b.data.sidebar?.order ?? 99) || a.data.title.localeCompare(b.data.title)),
+}));
+---
+
+<div class="sw-groups not-content">
+  {list.map((g) => (
+    <div>
+      <h3>{g.label}</h3>
+      <ul>{g.pages.map((p) => <li><a href={`/${p.id}/`}>{p.data.title}</a></li>)}</ul>
+    </div>
+  ))}
+</div>

@@ -1,0 +1,30 @@
+---
+// Starlight's own header, with the wiki's areas as tabs underneath it on wide screens.
+// On a phone the areas list at the top of the menu instead (the sidebar topics plugin draws it).
+import Default from "@astrojs/starlight/components/Header.astro";
+
+const topics = Astro.locals.starlightSidebarTopics?.topics ?? [];
+const home = Astro.url.pathname === "/";
+---
+
+<div class="sw-header">
+  <div class="sw-row"><Default /></div>
+  <nav class="sw-tabs" aria-label="Wiki areas">
+    <a href="/" aria-current={home ? "page" : undefined}>Home</a>
+    {topics.map((t) => (
+      <a href={t.link} aria-current={t.isCurrent ? "page" : undefined}>{t.label}</a>
+    ))}
+  </nav>
+</div>
+
+<style>
+  .sw-header { display: flex; flex-direction: column; height: 100%; }
+  .sw-row { flex: 1; min-height: 0; }
+  .sw-tabs { display: none; }
+  @media (min-width: 50rem) {
+    .sw-tabs { display: flex; gap: 0.25rem; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--sl-nav-pad-x)); padding-inline: var(--sl-nav-pad-x); border-top: 1px solid var(--sl-color-hairline); }
+    .sw-tabs a { flex: none; padding: 0.6rem 0.75rem; font-size: var(--sl-text-sm); font-weight: 600; color: var(--sl-color-gray-2); text-decoration: none; border-bottom: 2px solid transparent; }
+    .sw-tabs a:hover { color: var(--sl-color-white); }
+    .sw-tabs a[aria-current="page"] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-white); }
+  }
+</style>

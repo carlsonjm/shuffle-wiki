@@ -1,0 +1,45 @@
+---
+// The front page: every area with its page count, then the pages people ask for most.
+import { getCollection } from "astro:content";
+
+const AREAS = [
+  ["start", "Get started", "New to Shuffle? Find your way around, learn the keys, and install."],
+  ["shuffle", "Shuffle", "Everything on your screen, and what to do when something goes wrong."],
+  ["apps", "Apps and devices", "Getting apps, games, office files, printers, drives and backups."],
+  ["releases", "Releases", "Every week's changes since launch, kept for good."],
+  ["open", "Open source", "The open parts of Shuffle, and how to build and run them yourself."],
+];
+const docs = await getCollection("docs");
+const count = (a: string) => docs.filter((d) => d.id.startsWith(a + "/") && d.id.split("/").length === 3).length;
+const ASKED = [
+  ["How do I get apps?", "/apps/getting-apps/get-apps/"],
+  ["Keys and the Meta key", "/start/first-steps/meta-key/"],
+  ["Install Steam", "/apps/games/steam/"],
+  ["Add a printer", "/apps/devices-and-files/printer/"],
+  ["Turn Shuffle off or remove it", "/shuffle/when-something-goes-wrong/turn-off/"],
+  ["An app or the screen stopped responding", "/shuffle/when-something-goes-wrong/frozen-app/"],
+];
+---
+
+<div class="sw-areas not-content">
+  {AREAS.map(([id, title, desc]) => (
+    <a class="sw-area" href={`/${id}/`}>
+      <h2>{title}</h2>
+      <p>{desc}</p>
+      <small>{count(id)} pages</small>
+    </a>
+  ))}
+</div>
+<h2 id="most-asked">Most asked</h2>
+<div class="sw-chips not-content">{ASKED.map(([t, h]) => <a href={h}>{t}</a>)}</div>
+
+<style>
+  .sw-areas { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 0.75rem; }
+  .sw-area { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; border-radius: 8px; background: var(--sw-fill); text-decoration: none; color: var(--sl-color-white); }
+  .sw-area:hover { background: var(--sl-color-accent-low); }
+  .sw-area h2 { margin: 0; font-size: 1.1rem; }
+  .sw-area p { margin: 0; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); }
+  .sw-area small { color: var(--sl-color-gray-3); }
+  .sw-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .sw-chips a { background: var(--sl-color-accent-low); border-radius: 999px; padding: 0.35rem 0.8rem; font-size: var(--sl-text-sm); text-decoration: none; color: var(--sl-color-white); }
+</style>
