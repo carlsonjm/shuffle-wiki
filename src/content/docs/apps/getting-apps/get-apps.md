@@ -2,6 +2,7 @@
 title: "How do I get apps?"
 description: "They come from Discover, the app store."
 keywords: "apps get install download programs software store discover flathub find"
+tableOfContents: false
 sidebar:
   order: 1
 ---

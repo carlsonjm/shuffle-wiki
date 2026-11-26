@@ -2,6 +2,7 @@
 title: "Find your downloads"
 description: "Open Files and click Downloads on the left."
 keywords: "downloads download folder where saved find file"
+tableOfContents: false
 sidebar:
   order: 4
 ---

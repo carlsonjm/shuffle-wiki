@@ -2,6 +2,7 @@
 title: "Add the app store"
 description: "Discover isn't there? Two lines in Konsole add it."
 keywords: "app store discover flathub flatpak missing skipped no store refused failed"
+tableOfContents: false
 sidebar:
   order: 2
 ---

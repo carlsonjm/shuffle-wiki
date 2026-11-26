@@ -2,6 +2,7 @@
 title: "Use Microsoft 365"
 description: "Word, Excel and PowerPoint work in your web browser at office.com."
 keywords: "microsoft 365 office word excel powerpoint outlook onedrive teams subscription"
+tableOfContents: false
 sidebar:
   order: 4
 ---

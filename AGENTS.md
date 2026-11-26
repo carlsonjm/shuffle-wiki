@@ -14,6 +14,8 @@ Three levels, so it holds hundreds of pages without a long list anywhere:
   once in `astro.config.mjs` and in the area's `index.mdx`.
 - **Pages** are Markdown files in a group. A new page lists itself; `sidebar.order` sets its place.
 
+A page with no `##` sections sets `tableOfContents: false`, so no empty "On this page" bar shows.
+
 Every page has a `title` (the question or task, as a person would put it), a `description` (the
 answer in one line, shown under the title) and `keywords` (other words people use for it).
 

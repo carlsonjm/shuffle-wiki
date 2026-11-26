@@ -2,6 +2,7 @@
 title: "Get Chrome, Brave or Edge"
 description: "Get them from Discover. Your computer already has Firefox."
 keywords: "browser chrome google brave edge firefox web internet"
+tableOfContents: false
 sidebar:
   order: 1
 ---

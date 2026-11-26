@@ -2,6 +2,7 @@
 title: "Back up your photos"
 description: "Copy the Pictures folder to a USB drive or a cloud service."
 keywords: "photos pictures back up backup copy usb cloud google photos onedrive save"
+tableOfContents: false
 sidebar:
   order: 6
 ---

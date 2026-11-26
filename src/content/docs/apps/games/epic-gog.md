@@ -2,6 +2,7 @@
 title: "Play Epic and GOG games"
 description: "Epic and GOG make no Linux app, but Heroic Games Launcher, from Discover, opens both."
 keywords: "epic gog games heroic launcher free games fortnite"
+tableOfContents: false
 sidebar:
   order: 2
 ---

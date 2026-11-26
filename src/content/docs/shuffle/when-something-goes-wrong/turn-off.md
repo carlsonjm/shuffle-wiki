@@ -2,6 +2,7 @@
 title: "Turn Shuffle off or remove it"
 description: "In Shuffle Settings, choose About, then Turn off. Removing it takes one line."
 keywords: "turn off remove uninstall undo plain plasma back revert"
+tableOfContents: false
 sidebar:
   order: 3
 ---

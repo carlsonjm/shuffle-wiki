@@ -2,6 +2,7 @@
 title: "Find your way around"
 description: "The dock is along the bottom. Search opens with the Windows key."
 keywords: "start menu taskbar dock search launcher where how open app find around new first time"
+tableOfContents: false
 sidebar:
   order: 1
 ---

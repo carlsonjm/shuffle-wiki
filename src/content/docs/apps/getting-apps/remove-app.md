@@ -2,6 +2,7 @@
 title: "Remove an app"
 description: "In Discover, choose Installed, then Remove."
 keywords: "remove uninstall delete app program get rid add or remove programs"
+tableOfContents: false
 sidebar:
   order: 3
 ---

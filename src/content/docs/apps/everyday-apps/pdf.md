@@ -2,6 +2,7 @@
 title: "Open a PDF"
 description: "Double-click it in Files."
 keywords: "pdf open read sign fill form adobe acrobat reader"
+tableOfContents: false
 sidebar:
   order: 6
 ---
