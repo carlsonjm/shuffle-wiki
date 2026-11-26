@@ -26,7 +26,16 @@ export default defineConfig({
       plugins: [
         starlightSidebarTopics([
           { id: "start", label: "Get started", link: "/start/", items: [group("First steps", "start/first-steps")] },
-          { id: "shuffle", label: "Shuffle", link: "/shuffle/", items: [group("When something goes wrong", "shuffle/when-something-goes-wrong")] },
+          {
+            id: "shuffle", label: "Shuffle", link: "/shuffle/",
+            items: [
+              group("Cards and workspaces", "shuffle/cards-and-workspaces"),
+              group("Search", "shuffle/search"),
+              group("Around the screen", "shuffle/around-the-screen"),
+              group("Keys and touch", "shuffle/keys-and-touch"),
+              group("When something goes wrong", "shuffle/when-something-goes-wrong"),
+            ],
+          },
           {
             id: "apps", label: "Apps and devices", link: "/apps/",
             items: [
