@@ -100,3 +100,11 @@ h1#_top { font-weight: 700; letter-spacing: -0.01em; line-height: 1.15; }
 @media (min-width: 50rem) {
   .sidebar-pane .sidebar-content { padding-top: 2.4rem; }
 }
+
+/* Between the phone layout and the wide one, Starlight puts an "On this page" bar above the title,
+   which pushes the title below the left column's first line. Pages are short, so leave the bar
+   to phones; the wide layout keeps its column on the right. */
+@media (min-width: 50rem) {
+  mobile-starlight-toc { display: none; }
+  :root { --sl-mobile-toc-height: 0rem; }
+}
