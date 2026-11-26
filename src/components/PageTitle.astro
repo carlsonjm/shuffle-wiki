@@ -1,0 +1,14 @@
+---
+// The page title, then the page's short answer (its description) as the opening line, as on Help.
+import Default from "@astrojs/starlight/components/PageTitle.astro";
+
+const { entry } = Astro.locals.starlightRoute;
+const lead = entry.id.split("/").length === 3 ? entry.data.description : undefined;
+---
+
+<Default />
+{lead && <p class="sw-lead">{lead}</p>}
+
+<style>
+  .sw-lead { margin: 0.75rem 0 0; font-size: var(--sl-text-lg); color: var(--sl-color-gray-2); max-width: 62ch; }
+</style>

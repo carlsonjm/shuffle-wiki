@@ -1,0 +1,24 @@
+{
+  "name": "shuffle-wiki",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro build && wrangler dev",
+    "check": "astro check && astro build",
+    "deploy": "astro build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.43.2",
+    "@fontsource-variable/manrope": "5.3.0",
+    "astro": "7.4.13",
+    "sharp": "0.34.5",
+    "starlight-sidebar-topics": "0.9.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.92.0"
+  }
+}
