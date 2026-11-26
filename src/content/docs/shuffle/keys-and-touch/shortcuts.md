@@ -25,7 +25,7 @@ Press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>/</kbd> 
 | Move the front card back or forward in its Stack | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Page Down</kbd> or <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Page Up</kbd> |
 | Take the Active card out of its Stack | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Down</kbd> |
 | Turn Cards off or on | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Esc</kbd> |
-| Make one card an ordinary window | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd> |
+| Make one card an ordinary window, out of its Stack | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd> |
 | The workspace beside | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Ctrl</kbd> + an arrow key |
 | Workspace 1 to 9 | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>F1</kbd> to <kbd>F9</kbd>, or <kbd>Ctrl</kbd> + <kbd>F1</kbd> to <kbd>F9</kbd> |
 | Move the card to the workspace beside | <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd> or <kbd>Right</kbd> |

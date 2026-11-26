@@ -37,6 +37,8 @@ In Spread, pull the card down, out of the Stack. It becomes a card of its own be
 
 With the keyboard, press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Down</kbd> on the Active card. It leaves the Stack and becomes its own card, just after it.
 
+To take a card out of its Stack and make it an ordinary window instead, press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Backspace</kbd>, or drag it to the bottom edge of the screen. An ordinary window cannot be in a Stack, so it breaks out. A Stack left with one card becomes an ordinary card.
+
 ## Close a card in a Stack
 
 In Spread, flick the card up, or press <kbd>Delete</kbd> while it is in the middle of the row. Its app closes.
