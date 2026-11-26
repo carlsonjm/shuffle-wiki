@@ -42,6 +42,6 @@ Find what you see, then follow its link. Each page starts with the quickest fix.
 
 ## Still stuck
 
-Shuffle has no human support, so the [Health check](/shuffle/helpers/helpers/) Helper is the next stop: press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd>, type **Health check**, and open it. It looks the computer over and says what needs a look.
+The [Health check](/shuffle/helpers/helpers/) Helper is the next stop: press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd>, type **Health check**, and open it. It looks the computer over and says what needs a look.
 
 If you want to keep a record of the problem, press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>I</kbd> to open **Settings**, choose **About**, then **Save a problem report**. It puts the versions of everything and this session's messages into one file in your **Downloads** folder. Nothing is sent anywhere.
