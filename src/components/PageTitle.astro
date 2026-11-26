@@ -1,14 +1,19 @@
 ---
 // The page title, then the page's short answer (its description) as the opening line, as on Help.
+// A page's keywords go in a hidden line that only the wiki's search reads, so other words people
+// use for the same thing find the page.
 import Default from "@astrojs/starlight/components/PageTitle.astro";
 
 const { entry } = Astro.locals.starlightRoute;
 const lead = entry.id.split("/").length === 3 ? entry.data.description : undefined;
+const keywords = entry.data.keywords;
 ---
 
 <Default />
 {lead && <p class="sw-lead">{lead}</p>}
+{keywords && <p class="sw-keywords" aria-hidden="true" data-pagefind-weight="0.5">{keywords}</p>}
 
 <style>
   .sw-lead { margin: 0.75rem 0 0; font-size: var(--sl-text-lg); color: var(--sl-color-gray-2); max-width: 62ch; }
+  .sw-keywords { display: none; }
 </style>

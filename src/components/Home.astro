@@ -12,6 +12,8 @@ const AREAS = [
 const docs = await getCollection("docs");
 const count = (a: string) => docs.filter((d) => d.id.startsWith(a + "/") && d.id.split("/").length === 3).length;
 const ASKED = [
+  ["Something is not right: start here", "/shuffle/when-something-goes-wrong/something-is-not-right/"],
+  ["Your first day with Shuffle", "/start/first-steps/first-day/"],
   ["How do I get apps?", "/apps/getting-apps/get-apps/"],
   ["Keys and the Meta key", "/start/first-steps/meta-key/"],
   ["Install Steam", "/apps/games/steam/"],
