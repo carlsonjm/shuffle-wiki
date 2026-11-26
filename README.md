@@ -16,9 +16,6 @@ npm run build    # the finished site in dist/
 
 ## Publish it
 
-```sh
-npx wrangler login   # once
-npm run deploy
-```
+Merging into `main` publishes: Cloudflare builds the site and puts it live within a minute or two.
 
 How pages are laid out and the rules every page follows are in [AGENTS.md](AGENTS.md).

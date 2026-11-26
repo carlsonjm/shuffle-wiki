@@ -52,5 +52,7 @@ editing and no human support.
 
 ## Publishing
 
-`npm run deploy` builds the site and publishes it with Wrangler to wiki.shuffleplasma.com, on the
-same Cloudflare account as shuffleplasma.com. Merging alone does not publish.
+Merging into `main` publishes. Cloudflare Workers Builds watches this repository, runs
+`npm run build`, then `npx wrangler deploy`, and the change is live at wiki.shuffleplasma.com
+within a minute or two (product owner's choice, 26 Nov 2026). Nothing to run by hand;
+`npm run deploy` does the same from a computer if a publish ever has to be forced.
