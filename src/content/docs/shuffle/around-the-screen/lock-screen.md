@@ -1,6 +1,6 @@
 ---
 title: "Lock the screen and sign in"
-description: "Lock from Control Center. Type your password and press Enter to come back."
+description: "Lock from Control Center's More button. Type your password and press Enter to come back."
 keywords: "lock screen sign in login password unlock sleep shut down restart account switch user"
 sidebar:
   order: 7
@@ -8,7 +8,7 @@ sidebar:
 
 ## Lock
 
-Tap the network icon at the top right of the screen to open Control Center, then tap **Lock**.
+Tap the network icon at the top right of the screen to open [Control Center](/shuffle/around-the-screen/control-center/). Tap **More** at its top, then tap **Lock**. The screen locks at once.
 
 ## Unlock or sign in
 

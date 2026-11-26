@@ -1,7 +1,7 @@
 ---
 title: "Helpers: what each one does"
 description: "Each Helper does one job, such as updates or freeing up space, and changes nothing until you tap its button."
-keywords: "helpers split rock maintenance update free up space clean install remove app health check restore point what changed tidy downloads"
+keywords: "helpers split rock maintenance update free up space clean install remove app uninstall health check restore point what changed tidy downloads"
 sidebar:
   order: 1
 ---
@@ -10,7 +10,9 @@ sidebar:
 
 ## Open a Helper
 
-Press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> to open Search and type the Helper's name, such as **Free up space**, then tap it. To see them all, tap **Ask** (or **Helpers**) in the row along Search's top.
+Press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> to open Search and type the Helper's name, such as **Free up space**, then tap it. Every Helper opens this way.
+
+To be reminded which Helpers there are, tap **Ask** in the row along Search's top. The Helpers sit below the place to ask, one tile each.
 
 ## The Helpers
 
@@ -22,10 +24,13 @@ Press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> to open Search 
 | **Restore points** | Shows the saved points the computer can go back to. |
 | **Your apps** | Lists the apps you added, biggest first. |
 | **Install an app** | Finds the app for what you need. |
-| **Remove an app** | Removes the app you name. |
 | **Free up space** | Names everything it would remove before it removes any of it. |
 | **Tidy up Downloads** | Moves old downloads to the Trash. |
 | **Layouts** | Saves and reopens a set of apps. See [Layouts](/shuffle/cards-and-workspaces/layouts/). |
+
+## Remove an app
+
+Touch and hold an app in Search or in Apps, or right-click it, then choose **Uninstall…**. Shuffle shows what will be removed and removes nothing until you say yes. You can also open [Ask](/shuffle/search/ask/) and write **uninstall** followed by the app's name. Ask lists the apps that fit, and asks before it removes one. The parts the computer itself runs on are never offered.
 
 ## When the computer needs a look
 
