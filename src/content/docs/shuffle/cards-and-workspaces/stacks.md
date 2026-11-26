@@ -16,13 +16,27 @@ A **Stack** keeps several cards in one place, one in front of the others, like a
 
 To add more, let another card go on the Stack the same way.
 
+With the keyboard, press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> on a card. It joins the card you used before it. Press it again to put it one place deeper in that Stack.
+
 ## Step through a Stack
 
 - Press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Tab</kbd> for the next card in the Stack, or <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> for the one before.
 - Along the top of the screen, after the workspace's name, each card in the Stack has a tab. Tap or click a tab to bring that card forward.
 - Tap or click the lit tab, the card in front, to open a list of every card in the Stack. <kbd>Esc</kbd> closes the list.
-- In Spread, turn the mouse wheel over the Stack, or tap a card fanned behind its front one.
+- In Spread, turn the mouse wheel over the Stack, press <kbd>Up</kbd> or <kbd>Down</kbd>, or tap a card fanned behind its front one.
+
+## Change the order
+
+Press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Page Down</kbd> to move the front card one place back in its Stack, or <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Page Up</kbd> to move it one place forward.
+
+With touch or the mouse, hold a card in the Stack until it lifts out, move it sideways to the place you want, and let it go.
 
 ## Take a card out
 
 In Spread, pull the card down, out of the Stack. It becomes a card of its own beside the Stack.
+
+With the keyboard, press <kbd><a href="/start/first-steps/meta-key/">Meta</a></kbd> + <kbd>Shift</kbd> + <kbd>Down</kbd> on the Active card. It leaves the Stack and becomes its own card, just after it.
+
+## Close a card in a Stack
+
+In Spread, flick the card up, or press <kbd>Delete</kbd> while it is in the middle of the row. Its app closes.
