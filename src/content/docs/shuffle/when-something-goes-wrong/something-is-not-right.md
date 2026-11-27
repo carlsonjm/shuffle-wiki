@@ -15,6 +15,8 @@ Find what you see, then follow its link. Each page starts with the quickest fix.
 | After signing in, Shuffle does not start, or the screen stays black | [Shuffle won't start after sign-in](/shuffle/when-something-goes-wrong/shuffle-wont-start/) |
 | An app, or the whole screen, stopped responding | [An app or the screen stopped responding](/shuffle/when-something-goes-wrong/frozen-app/) |
 | Windows are ordinary windows instead of cards | [Turn Cards off and use ordinary windows](/shuffle/cards-and-workspaces/plasma-desktop/) shows how to turn Cards back on. If it happened after an update, see [Cards are off after an update](/shuffle/when-something-goes-wrong/cards-off-after-update/). |
+| Notifications don't appear, or the bell has a line through it | [Do not disturb](/shuffle/around-the-screen/do-not-disturb/) is on. To quiet or allow one app, see [See and manage notifications](/shuffle/around-the-screen/notifications/). |
+| The screen dims or the computer sleeps in the middle of something | [Keep the screen awake](/shuffle/around-the-screen/keep-awake/) |
 | Something changed and you want it back the way it was | [Undo a change](/shuffle/helpers/undo-a-change/) |
 | You want plain Plasma back, for now or for good | [Turn Shuffle off or remove it](/shuffle/when-something-goes-wrong/turn-off/) |
 | Your key is lost | [I lost my key](/shuffle/when-something-goes-wrong/lost-key/) |

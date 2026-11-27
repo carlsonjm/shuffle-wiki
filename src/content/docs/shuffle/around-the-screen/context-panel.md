@@ -10,7 +10,9 @@ The bar along the top of the screen is the **Context Panel**.
 
 - **On the left:** the workspace's name. Tap or click it to open [Table](/shuffle/cards-and-workspaces/table/). After it come the tabs of the [Stack](/shuffle/cards-and-workspaces/stacks/) you are in.
 - **In the middle:** the clock. Tap or click it to open the [calendar](/shuffle/around-the-screen/calendar-and-weather/).
-- **On the right:** the weather, the bell for [notifications](/shuffle/around-the-screen/notifications/), the network icon for [Control Center](/shuffle/around-the-screen/control-center/), the system tray and the battery.
+- **On the right:** the [weather](/shuffle/around-the-screen/calendar-and-weather/), the bell for [notifications](/shuffle/around-the-screen/notifications/) with the newest one scrolling past beside it, the network icon for [Control Center](/shuffle/around-the-screen/control-center/), the [system tray](/shuffle/around-the-screen/system-tray/) and the battery.
+
+When [Do not disturb](/shuffle/around-the-screen/do-not-disturb/) is on, the bell shows a line through it.
 
 ## Change it
 
