@@ -3,7 +3,7 @@ title: "Lock the screen and sign in"
 description: "Lock from Control Center's More button. Type your password and press Enter to come back."
 keywords: "lock screen sign in login password unlock sleep shut down restart account switch user"
 sidebar:
-  order: 7
+  order: 10
 ---
 
 ## Lock
