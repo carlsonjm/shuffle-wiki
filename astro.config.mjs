@@ -25,7 +25,7 @@ export default defineConfig({
       expressiveCode: { themes: ["github-dark"], styleOverrides: { borderRadius: "8px" } },
       plugins: [
         starlightSidebarTopics([
-          { id: "start", label: "Get started", link: "/start/", items: [group("First steps", "start/first-steps")] },
+          { id: "start", label: "Get started", link: "/start/", items: [group("First steps", "start/first-steps"), group("Your kind of computer", "start/your-computer")] },
           {
             id: "shuffle", label: "Shuffle", link: "/shuffle/",
             items: [
