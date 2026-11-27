@@ -3,7 +3,7 @@ title: "Browse your files"
 description: "Press Meta + E to open Files."
 keywords: "files file manager folders explorer finder browse recent dolphin path documents downloads"
 sidebar:
-  order: 3
+  order: 4
 ---
 
 **Files** shows your folders and files.
