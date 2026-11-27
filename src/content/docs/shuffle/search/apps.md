@@ -3,7 +3,7 @@ title: "See every app, sort them and make folders"
 description: "Press Meta + G to see every app on this computer."
 keywords: "apps all applications app drawer grid launcher folder folders colour look sort hide unhide pin uninstall remove edit application rename icon menu editor"
 sidebar:
-  order: 2
+  order: 3
 ---
 
 **Apps** lists every app on the computer.
