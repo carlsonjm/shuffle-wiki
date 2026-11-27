@@ -23,4 +23,14 @@ sidebar:
 
 ## Find a file
 
-Type its name. Files narrows the folder you are in. To look in every folder inside it too, tap **Search inside folders**, or press <kbd>Enter</kbd>.
+Type its name. Files narrows the folder you are in. To look in every folder inside it too, tap **Search inside folders**, or press <kbd>Enter</kbd>. See [Find a file](/shuffle/files/find-files/).
+
+## Everything else in Files
+
+- [Choose one file or several](/shuffle/files/choose-files/)
+- [Copy and move files](/shuffle/files/copy-and-move/), including to and from other apps
+- [Rename, compress and organise files](/shuffle/files/organise/)
+- [Delete files, and get them back](/shuffle/files/trash/)
+- [Open and eject a USB drive](/shuffle/files/drives/)
+- [Places, tabs and windows in Files](/shuffle/files/places-tabs-and-windows/)
+- [Files as the computer's file manager](/shuffle/files/file-manager/)

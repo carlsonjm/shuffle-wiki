@@ -31,6 +31,7 @@ export default defineConfig({
             items: [
               group("Cards and workspaces", "shuffle/cards-and-workspaces"),
               group("Search", "shuffle/search"),
+              group("Files", "shuffle/files"),
               group("Around the screen", "shuffle/around-the-screen"),
               group("Keys and touch", "shuffle/keys-and-touch"),
               group("Notes", "shuffle/notes"),
